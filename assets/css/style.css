@@ -2,6 +2,9 @@
 
 /*----------------------------------------------------------- Colors */
 
+.bg-color-header {
+    background-color: red;
+}
 
 
 /*----------------------------------------------------------- Header */
@@ -11,12 +14,26 @@ header {
 }
 
 .logo {
-    min-height: 120px;
+    min-height: 100px;
     font-family: Oswald, sans-serif;
     font-weight: 700;
     font-size: 50px;
     color: #43548c;
     text-decoration: none;
 }
+
+#nav li a {
+    font-size: 25px;
+    text-decoration: none;
+    color: #43548c;
+    margin-right: 20px;
+}
+
+.hero-image {
+    background-color: #007bff; /* Example background color for hero image */
+    height: 400px;
+}
+
+
 
 
