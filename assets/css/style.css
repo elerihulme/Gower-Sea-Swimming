@@ -51,10 +51,49 @@ header {
     height: 400px;
 }
 
+/*----------------------------------------------------------- Main */
+
+main {
+    min-height: 200px;
+    background-color: pink;
+    
+}
+
+/*----------------------------------------------------------- About Us */
+
+.about-us {
+    min-height: 30px;
+    margin: 10px;
+    padding: 20px;
+    background-color: lime;
+}
+
+/*----------------------------------------------------------- Swim Safety */
+
+.swim-safety {
+    min-height: 30px;
+    margin: 10px;
+    background-color: orange;
+}
+
+.swim-rule {
+    min-height: 50px;
+    padding: 5px;
+    background-color: violet;
+}
+
+
+/*----------------------------------------------------------- Events */
+
+aside {
+    min-height: 200px;
+    background-color: purple;
+    
+}
+
 /*----------------------------------------------------------- Footer */
 
 footer {
-    min-height: 50px;
     font-size: 30px;
 }
 
