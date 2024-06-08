@@ -6,6 +6,10 @@
     background-color: red;
 }
 
+.bg-color-footer {
+    background-color: yellow;
+}
+
 
 /*----------------------------------------------------------- Header */
 
@@ -14,26 +18,54 @@ header {
 }
 
 .logo {
-    min-height: 100px;
+    min-height: 80px;
     font-family: Oswald, sans-serif;
     font-weight: 700;
-    font-size: 50px;
+    font-size: 45px;
     color: #43548c;
     text-decoration: none;
 }
 
 #nav li a {
-    font-size: 25px;
+    font-size: 20px;
     text-decoration: none;
     color: #43548c;
     margin-right: 20px;
+    padding: 5px;
+}
+
+.active {
+    border-bottom: 6px dotted #43548c;
+  }
+
+#nav li a:hover {
+    color: green;
+}
+
+.active:hover {
+    border-bottom: 6px dotted green;
 }
 
 .hero-image {
-    background-color: #007bff; /* Example background color for hero image */
+    background-color: #007bff; 
     height: 400px;
 }
 
+/*----------------------------------------------------------- Footer */
 
+footer {
+    min-height: 50px;
+    font-size: 30px;
+}
 
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    margin: 10px 20px;
+    color: white;
+}
+
+.social-links li a i:hover {
+    color: orange;
+}
 
