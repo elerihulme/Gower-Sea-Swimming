@@ -68,6 +68,18 @@ main {
     background-color: lime;
 }
 
+/*----------------------------------------------------------- Health Benefits */
+
+.health-benefits {
+    background-color: white;
+    margin: 10px;
+}
+
+.health-benefits i {
+    display: block;
+    font-size: 26px;
+}
+
 /*----------------------------------------------------------- Swim Safety */
 
 .swim-safety {
@@ -80,6 +92,11 @@ main {
     min-height: 50px;
     padding: 5px;
     background-color: violet;
+}
+
+.swim-rule i{
+    display: block;
+    font-size: 20px;
 }
 
 
