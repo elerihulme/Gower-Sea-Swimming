@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bellota:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Indie+Flower&display=swap');
 
 /*----------------------------------------------------------- Colors */
-
 .bg-color-header {
     background-color: red;
 }
@@ -11,7 +10,6 @@
 }
 
 /*----------------------------------------------------------- Special paddings/margins/text */
-
 h1,
 h2,
 h3,
@@ -33,14 +31,35 @@ div {
     margin: 0;
 }
 
-/*----------------------------------------------------------- Header */
+/* taken from materialize */
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    max-width: 1900px;
+    margin: 0 auto;
+}
 
+.full-screen {
+    flex: 1 0 auto;
+}
+
+/*----------------------------------------------------------- Header */
 header {
     margin: 0;
 }
 
+.top-bar {
+    min-height: 100px;
+}
+
+.logo-container {
+    margin-left: 30px;
+}
+
 .logo {
     min-height: 80px;
+    line-height: 50px;
     font-family: Bellota, sans-serif;
     font-weight: 700;
     font-size: 35px;
@@ -53,13 +72,12 @@ header {
     font-size: 20px;
     text-decoration: none;
     color: #43548c;
-    margin-right: 20px;
     padding: 5px;
 }
 
 .active {
     border-bottom: 6px dotted #43548c;
-  }
+}
 
 #nav li a:hover {
     color: green;
@@ -70,7 +88,7 @@ header {
 }
 
 .hero-image {
-    background-color: #007bff; 
+    background-color: #007bff;
     height: 400px;
     background: url("../images/hero-image.jpg");
     background-position: center;
@@ -78,33 +96,32 @@ header {
     background-size: cover;
 }
 
+.hero-button:hover {
+    background-color: blue;
+    color: #fafafa;
+}
+
 .overlay {
     height: 100%;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.5); 
-    z-index: 1; 
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
 }
 
 .hero-title {
-    position: absolute; 
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 2; 
-    color: white; 
+    z-index: 2;
+    color: white;
     text-align: center;
 }
 
 /*----------------------------------------------------------- Main */
-
 main {
     min-height: 300px;
     background-color: pink;
-    
+
 }
 
 /*----------------------------------------------------------- About Us */
-
 .about-us {
     min-height: 30px;
     margin: 10px;
@@ -113,7 +130,6 @@ main {
 }
 
 /*----------------------------------------------------------- Health Benefits */
-
 .health-benefits {
     background-color: blue;
     margin: 10px;
@@ -125,7 +141,6 @@ main {
 }
 
 /*----------------------------------------------------------- Swim Safety */
-
 .swim-safety {
     min-height: 30px;
     margin: 10px;
@@ -138,33 +153,31 @@ main {
     background-color: violet;
 }
 
-.swim-rule i{
+.swim-rule i {
     display: block;
     font-size: 20px;
 }
 
 
 /*----------------------------------------------------------- Events */
-
 aside {
     min-height: 200px;
     background-color: purple;
-    
+
 }
 
 /*----------------------------------------------------------- Gallery */
-
 .gallery-image {
     border: solid 2px black;
     min-height: 40px;
 }
 
 /*----------------------------------------------------------- Sign Up Form */
-
 .center-form {
     padding-top: 10px;
     margin: 0 auto;
-    max-width: 60%;
+    width: 70%;
+    max-width: 600px;
 }
 
 .sign-up-box {
@@ -174,22 +187,44 @@ aside {
 
 .sign-up-box button {
     margin: 10px;
+    background-color: blue;
+    color: #fafafa;
+
+}
+
+.sign-up-box button:hover {
+    background-color: #fafafa;
+    color: blue;
 }
 
 /*----------------------------------------------------------- Footer */
-
 footer {
+    height: 70px;
     font-size: 30px;
 }
 
+.footer-container {
+    height: 70px;
+    border: 1px solid black;
+}
+
+.social-links {
+    margin: 0;
+    padding: 0;
+}
+
+.social-links li {
+    display: inline-block;
+}
+
 .social-links li a i {
-    width: 32px;
-    height: 32px;
-    margin: 10px 20px;
+    height: 40px;
+    width: 40px;
     color: white;
+    border: 1px solid black;
+    line-height: 40px;
 }
 
 .social-links li a i:hover {
     color: orange;
 }
-

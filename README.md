@@ -28,8 +28,8 @@ The Cold Water Sea Swimmers website consists of three main pages:
 
 ## Technologies Used
 
-- **HTML5**: Structure of the website.
-- **CSS3**: Styling and layout.
+- **HTML**: Structure of the website.
+- **CSS**: Styling and layout.
 - **Bootstrap**: Responsive layouts.
 - **Balsamiq**: Make wireframes.
 - **GitPod**: Main tool to write and edit code.
