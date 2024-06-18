@@ -223,95 +223,29 @@ aside h2 {
 
 
 /*----------------------------------------------------------- Gallery */
-.gallery-image {
-    border: solid 2px black;
-    height: 300px;
+.gallery-title {
+    margin: 5%;
+}
+
+.image-container {
+    height: 400px;
     overflow: hidden;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.image-1 {
-    background: url("../images/yiming-ma-161rpKqzcKM-unsplash.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
+.gallery-image {
+    height: 100%;
 }
 
-.image-2 {
-    background: url("../images/bradley-pritchard-jones-GN9F_89Nve8-unsplash.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
+.portrait-gallery-image {
+    border: solid 2px black;
+    height: 750px;
 }
 
-.image-3 {
-    background: url("../images/callum-blacoe-xpfQZxvOuXE-unsplash.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-}
 
-.image-4 {
-    background: url("../images/charles-lamb-9g3T6iO6l5U-unsplash.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-
-.image-5 {
-    background: url("../images/francois-olwage-qx1_4g93RtQ-unsplash.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-
-.image-6 {
-    background: url("../images/ian-cylkowski-4585pXw9jsU-unsplash.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-
-.image-7 {
-    background: url("../images/john-crozier-8dNnGQDhnM4-unsplash.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-
-.image-8 {
-    background: url("../images/john-mark-strange-BoHEJDXQANw-unsplash.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-
-.image-9 {
-    background: url("../images/marcus-woodbridge-TcOn3c84E58-unsplash.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-
-.image-10 {
-    background: url("../images/nick-russill-xUIbCuZW8ig-unsplash.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-
-.image-11 {
-    background: url("../images/sammy-leigh-scholl-ZYtE2vp0ML8-unsplash.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-
-.image-12 {
-    background: url("../images/terra-strickland-2LdNjUl79sk-unsplash.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-}
 
 /*----------------------------------------------------------- Sign Up Form */
 
