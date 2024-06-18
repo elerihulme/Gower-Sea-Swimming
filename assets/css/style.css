@@ -41,6 +41,8 @@ body {
 }
 
 .full-screen {
+    display: flex;
+    flex-direction: column;
     flex: 1 0 auto;
 }
 
@@ -53,8 +55,13 @@ header {
     min-height: 100px;
 }
 
+.bg-color-header>div {
+    padding: 0;
+}
+
 .logo-container {
-    margin-left: 30px;
+    padding: 0;
+    margin-left: 2%;
 }
 
 .logo {
@@ -118,61 +125,195 @@ header {
 main {
     min-height: 300px;
     background-color: pink;
+}
 
+.home-main {
+    padding: 0;
+}
+
+.home-section {
+    padding: 2%;
+}
+
+.home-section h2 {
+    margin-top: 1%;
 }
 
 /*----------------------------------------------------------- About Us */
 .about-us {
-    min-height: 30px;
-    margin: 10px;
-    padding: 20px;
     background-color: lime;
+}
+
+.about-us p {
+    font-size: 20px;
+    margin: 4% 0;
 }
 
 /*----------------------------------------------------------- Health Benefits */
 .health-benefits {
     background-color: blue;
-    margin: 10px;
+}
+
+.health-container {
+    margin: 2% 0;
+}
+
+.health-benefits h3 {
+    margin: 3%;
 }
 
 .health-benefits i {
     display: block;
+
     font-size: 26px;
+}
+
+.health-benefits p {
+    font-size: 20px;
+    margin: 0;
 }
 
 /*----------------------------------------------------------- Swim Safety */
 .swim-safety {
-    min-height: 30px;
-    margin: 10px;
     background-color: orange;
+}
+
+.rules {
+    padding: 1%;
 }
 
 .swim-rule {
     min-height: 50px;
     padding: 5px;
     background-color: violet;
+    font-size: 18px;
 }
 
 .swim-rule i {
     display: block;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 
 /*----------------------------------------------------------- Events */
 aside {
-    min-height: 200px;
     background-color: purple;
-
+    margin: 0 auto;
 }
+
+aside h2 {
+    margin: 3%;
+}
+
+
+
+.event {
+    margin: 0 auto;
+    max-width: 300px;
+    border-bottom: 1px solid darkturquoise;
+}
+
+.event div {
+    margin: 3% 0;
+}
+
+.event div h3 {
+    margin-bottom: 3%;
+}
+
 
 /*----------------------------------------------------------- Gallery */
 .gallery-image {
     border: solid 2px black;
-    min-height: 40px;
+    height: 10vh;
+}
+
+.image-1 {
+    background: url("../images/yiming-ma-161rpKqzcKM-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.image-2 {
+    background: url("../images/bradley-pritchard-jones-GN9F_89Nve8-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.image-3 {
+    background: url("../images/callum-blacoe-xpfQZxvOuXE-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.image-4 {
+    background: url("../images/charles-lamb-9g3T6iO6l5U-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.image-5 {
+    background: url("../images/francois-olwage-qx1_4g93RtQ-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.image-6 {
+    background: url("../images/ian-cylkowski-4585pXw9jsU-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.image-7 {
+    background: url("../images/john-crozier-8dNnGQDhnM4-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.image-8 {
+    background: url("../images/john-mark-strange-BoHEJDXQANw-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.image-9 {
+    background: url("../images/marcus-woodbridge-TcOn3c84E58-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.image-10 {
+    background: url("../images/nick-russill-xUIbCuZW8ig-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.image-11 {
+    background: url("../images/sammy-leigh-scholl-ZYtE2vp0ML8-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.image-12 {
+    background: url("../images/terra-strickland-2LdNjUl79sk-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 /*----------------------------------------------------------- Sign Up Form */
+
 .center-form {
     padding-top: 10px;
     margin: 0 auto;
@@ -181,7 +322,7 @@ aside {
 }
 
 .sign-up-box {
-    margin-top: 20px;
+    margin-top: 15%;
     margin-bottom: 20px;
 }
 
@@ -205,7 +346,6 @@ footer {
 
 .footer-container {
     height: 70px;
-    border: 1px solid black;
 }
 
 .social-links {
@@ -213,15 +353,10 @@ footer {
     padding: 0;
 }
 
-.social-links li {
-    display: inline-block;
-}
-
 .social-links li a i {
     height: 40px;
     width: 40px;
     color: white;
-    border: 1px solid black;
     line-height: 40px;
 }
 
