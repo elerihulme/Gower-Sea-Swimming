@@ -276,6 +276,10 @@ aside h2 {
     margin-bottom: 20px;
 }
 
+form {
+    color: #fcfcfc;
+}
+
 .sign-up-box button {
     margin: 10px;
     background-color: blue;
