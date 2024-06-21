@@ -260,8 +260,8 @@ aside h2 {
 /*----------------------------------------------------------- Sign Up Form */
 
 .center-form {
-    padding-top: 10px;
     margin: 0 auto;
+    padding-top: 10px;
     width: 70%;
     max-width: 600px;
 }
@@ -277,14 +277,14 @@ form {
 
 .sign-up-box button {
     margin: 10px;
-    background-color: blue;
+    background-color: #065a82;
     color: #fafafa;
 
 }
 
 .sign-up-box button:hover {
     background-color: #fafafa;
-    color: blue;
+    color: #065a82;
 }
 
 /*----------------------------------------------------------- Footer */
