@@ -10,7 +10,7 @@ The site can be accessed from this [link](https://elerihulme.github.io/Gower-Sea
 
 - [Project Overview](#project-overview)
 - [Technologies Used](#technologies-used)
-- [User Stories](#user-stories)
+- [UX](#ux)
 - [Features](#features)
 - [Design](#design)
 - [Testing](#testing)
@@ -126,37 +126,50 @@ The Cold Water Sea Swimmers website consists of three main pages:
 - Hero section has a fixed background image.
 - Hero section has a block section over the image that consists of:
    * Welcome message.
-   * Sign up button that leads directly to the sign up page.
+   * Sign up button that leads directly to the sign up page with a hover effect so the user knows that the button is usable.
 
 ##### About Us Section
 
-- 
+- This is the first section on the page as it describes the main information about the group, which is a priority for users.
 
 #### Health Benefits Section
 
-- 
+- This section bullet points the main benefits of cold water swimming, divided into physical and mental benefits to make it easy for the user to understand
+- This section is responsive as on a desktop the two categories appear next to each other but are stacked on tablet and mobile devices.
 
 #### Swim Saftey Section
 
--
+- This section hightlight to user the saftey consideration of sea swimming, reminding them of the potential dangers
+- Each "rule" has an accompanying cartoon to emphasise each point and to make the content easier to take in.
+- This section is repsonsive as the number of rules on each line decreases as the screen width gets narrower.
 
 #### Events Section
 
--
+- This section provide a list of the upcoming group events with details of place and time
+- When viewed on a desktop this section is an aside to the right of the screen, but when on a tablet it falls below the other content on the page.
 
 ### Gallery
 
--
+- This page highlights some of the places that group go swimming
+- This apge is responsive as the number of images in a row decreases as the page width narrows
 
 ### Sign Up
 
--
+- This page allows user to sign up for email updates so that they will never miss an event or any other update from the group organisers
+The name and the email inputs are requireed to be filled out
+- The submit button leads to a response page allowing the user to know that their submission was successful.
 
 ## Design
 
 ### Colour Scheme
 
+![Color pallet](documentation/Colour-scheme.png)
+
+- Different shades of blue were used as this is a colour associated with the sea and is aslo calming
+
 ### Typography
+
+- Google font's Bellota and Indie Flower were used for the headings and main content respectively as the curly nature of both of these fonts is eye catching but also gives a sense of informality giving the page a friendly nature like the environment the group is trying to create.
 
 ### Wireframes
 
@@ -170,9 +183,18 @@ The Cold Water Sea Swimmers website consists of three main pages:
 
 ### Validation
 
-### Compatibility
+* [HTML Validator](https://validator.w3.org/) was run on each page to determine any HTML errors. The only error found on each page was for the type attribute of buton on an a tag, however this is an my error as this for use with Bootstrap.
+* [CSS Validator](https://validator.w3.org/) was run on the style sheet and there were no errors found.
+* Lighthouse in Chrome Developer Tools was used to check performance and picked up some early contrast errors in colour choice so colours were adjusted accordingly. No other significant errors were found.
 
-### Responsiveness
+
+### Compatibility and Responsiveness
+
+The website was tested on Chrome, Mozilla, Edge and Safari browsers with no problems found.
+
+The website was tested on numerous sized screens including different desktop, tablet and mobile and was found to respond as expected to all sizes.
+Chrome development tools was used throughout the design process to check responsiveness and breakpoints. Adjustments were made accordingly.
+
 
 ### Manual testing
 
@@ -231,6 +253,9 @@ In your IDE Terminal, type the following command to clone my repository:
 - Alternatively, if you use Gitpod, you can [click here](https://elerihulme-gowerseaswim-4qu1qyuo6oa.ws.codeinstitute-ide.net/), which will start the Gitpod workspace for you.
 
 ## Future Improvements
+
+- Add a fully functional sign up form
+- Add a custom 404 page
 
 ## Credits
 
