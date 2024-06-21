@@ -94,18 +94,13 @@ header {
     text-decoration: none;
 }
 
-nav button {
-    color: #fcfcfc;
-}
-
-nav button span {
-    color: #bdd4e7;
+.active {
+    text-decoration: underline;
 }
 
 #nav li a {
     font-family: Bellota, sans-serif;
     font-size: 20px;
-    text-decoration: none;
     color: #fcfcfc;
     padding: 5px;
 }
@@ -272,7 +267,7 @@ aside h2 {
 }
 
 .sign-up-box {
-    margin-top: 15%;
+    margin-top: 5%;
     margin-bottom: 20px;
 }
 
