@@ -4,7 +4,7 @@ Welcome to the repository for the Cold Water Sea Swimmers website. This website 
 
 The site can be accessed from this [link](https://elerihulme.github.io/Gower-Sea-Swimming/)
 
-![Responsive Mockup](documentation/mockup_images.png)
+![Responsive Mockup](documentation/mockup-images.png)
 
 ## Table of Contents
 
@@ -35,6 +35,7 @@ The Cold Water Sea Swimmers website consists of three main pages:
 - **GitPod**: Main tool to write and edit code.
 - **Git**: Version control.
 - **GitHub**: Host the code of the website.
+- **GitHub Pages**: Website deployment.
 
 ## UX
 
@@ -163,7 +164,7 @@ The name and the email inputs are requireed to be filled out
 
 ### Colour Scheme
 
-![Color pallet](documentation/Colour-scheme.png)
+![Color pallet](documentation/colour-scheme.png)
 
 - Different shades of blue were used as this is a colour associated with the sea and is aslo calming
 
@@ -256,6 +257,7 @@ In your IDE Terminal, type the following command to clone my repository:
 
 - Add a fully functional sign up form
 - Add a custom 404 page
+- Add customised favicon
 
 ## Credits
 

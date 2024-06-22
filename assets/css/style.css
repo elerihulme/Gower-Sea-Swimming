@@ -113,7 +113,7 @@ header {
 .hero-image {
     background-color: #ADD7F6;
     height: 400px;
-    background: url("../images/hero-image.WebP");
+    background: url("../images/hero-image.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -236,6 +236,10 @@ aside h2 {
     margin: 3%;
 }
 
+.gallery-message {
+    margin-bottom: 2rem;
+}
+
 .image-container {
     height: 400px;
     overflow: hidden;
@@ -246,18 +250,11 @@ aside h2 {
     border: 2px solid #21295c;
 }
 
-.gallery-image {
-    height: 100%;
-}
-
-.portrait-gallery-image {
-    border: solid 2px black;
-    height: 750px;
-}
-
-
-
 /*----------------------------------------------------------- Sign Up Form */
+
+#sign-up {
+    scroll-behavior: smooth;
+}
 
 .center-form {
     margin: 0 auto;
@@ -277,14 +274,14 @@ form {
 
 .sign-up-box button {
     margin: 10px;
-    background-color: #065a82;
-    color: #fafafa;
+    background-color: #fcfcfc;
+    color: #21295c;
 
 }
 
 .sign-up-box button:hover {
-    background-color: #fafafa;
-    color: #065a82;
+    background-color: #21295c;
+    color: #fcfcfc;
 }
 
 /*----------------------------------------------------------- Footer */
