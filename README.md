@@ -174,19 +174,46 @@ The name and the email inputs are requireed to be filled out
 
 ### Wireframes
 
-#### Mobile Devices
+#### Mobile devices
+
+- [Home Page. Mobile Screen](documentation/index-mobile.png)
+- [Gallery Page. Mobile Screen](documentation/gallery-mobile.png)
+- [Sign Up Page. Mobile Screen](documentation/signup-mobile.png)
+- [Response Page. Mobile Screen](documentation/signup-complete-mobile.png)
+
 
 #### Tablets
 
+- [Home Page. Tablet Screen](documentation/index-tablet.png)
+- [Gallery Page. Tablet Screen](documentation/gallery-tablet.png)
+- [Sign Up Page. Tablet Screen](documentation/signup-tablet.png)
+- [Response Page. Tablet Screen](documentation/signup-complete-tablet.png)
+
 #### Desktop
+
+- [Home Page. Desktop Screen](documentation/index-desktop.png)
+- [Gallery Page. Desktop Screen](documentation/gallery-desktop.png)
+- [Sign Up Page. Desktop Screen](documentation/signup-desktop.png)
+- [Response Page. Desktop Screen](documentation/signup-complete-desktop.png)
+
 
 ## Testing
 
 ### Validation
 
-* [HTML Validator](https://validator.w3.org/) was run on each page to determine any HTML errors. The only error found on each page was for the type attribute of buton on an a tag, however this is an my error as this for use with Bootstrap.
+* [HTML Validator](https://validator.w3.org/) was run on each page to determine any HTML errors. The only error found on each page was for the type attribute of buton on an a tag, this was taken from Bootstrap, and I don't believe it is necessarily an error. More information can be found [here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button).
+![index validation](documentation/index-verfication.png)
+![gallery validation](documentation/gallery-verification.png)
+![signup validation](documentation/signup-verification.png)
+![signup-complete validation](documentation/signup-complete-verification.png)
 * [CSS Validator](https://validator.w3.org/) was run on the style sheet and there were no errors found.
+![css validation](documentation/css-verification.png)
 * Lighthouse in Chrome Developer Tools was used to check performance and picked up some early contrast errors in colour choice so colours were adjusted accordingly. No other significant errors were found.
+![index lighthouse](documentation/index-lighthouse.png)
+![gallery lighthouse](documentation/gallery-lighthouse.png)
+![signup lighthouse](documentation/signup-lighthouse.png)
+![signup-complete lighthouse](documentation/signup-complete-lighthouse.png)
+
 
 
 ### Compatibility and Responsiveness
@@ -194,6 +221,11 @@ The name and the email inputs are requireed to be filled out
 The website was tested on Chrome, Mozilla, Edge and Safari browsers with no problems found.
 
 The website was tested on numerous sized screens including different desktop, tablet and mobile and was found to respond as expected to all sizes.
+![index responsive](documentation/index-responsive.png)
+![gallery responsive](documentation/gallery-responsive.png)
+![signup responsive](documentation/signup-responsive.png)
+![signup-complete responsive](documentation/signup-complete-responsive.png)
+
 Chrome development tools was used throughout the design process to check responsiveness and breakpoints. Adjustments were made accordingly.
 
 
@@ -255,12 +287,48 @@ In your IDE Terminal, type the following command to clone my repository:
 
 ## Future Improvements
 
-- Add a fully functional sign up form
-- Add a custom 404 page
-- Add customised favicon
+- Add a fully functional sign up form.
+- Add a custom 404 page.
+- Add customised favicon.
 
 ## Credits
 
+### Content
+
+- [Bootstrap](https://getbootstrap.com/) was used for content structure, navigation elements, buttons and forms.
+- [Font Awesome](https://fontawesome.com/) was used for all icons.
+- Code was taken from [Materialize](https://materializecss.com/footer.html) to push the footer to the bottom of each page regardless of the content size. 
+
+
+### Images
+
+- All the images for this website were taken from [Unsplash](https://unsplash.com/).
++ [Hero image](https://unsplash.com/photos/time-lapse-photography-of-body-of-water-PKEPAeMBOIU)
++ Gallery images:
+   - [Image 1](https://unsplash.com/photos/a-view-of-a-beach-with-a-hill-in-the-background-161rpKqzcKM)
+   - [Image 2](https://unsplash.com/photos/a-large-body-of-water-sitting-next-to-a-lush-green-forest-GN9F_89Nve8)
+   - [Image 3](https://unsplash.com/photos/a-beach-with-cabo-de-la-vela-on-it-xpfQZxvOuXE)
+   - [Image 4](https://unsplash.com/photos/lighthouse-on-hill-9g3T6iO6l5U)
+   - [Image 5](https://unsplash.com/photos/a-person-walking-on-a-beach-qx1_4g93RtQ)
+   - [Image 6](https://unsplash.com/photos/aerial-view-photography-of-shore-between-cliffs-during-daytime-4585pXw9jsU)
+   - [Image 7](https://unsplash.com/photos/ocean-waves-crashing-on-shore-during-daytime-8dNnGQDhnM4)
+   - [Image 8](https://unsplash.com/photos/brown-cliffs-by-a-beach-landscape-BoHEJDXQANw)
+   - [Image 9](https://unsplash.com/photos/aerial-view-of-green-and-brown-island-TcOn3c84E58)
+   - [Image 10](https://unsplash.com/photos/an-aerial-view-of-a-sandy-beach-and-a-body-of-water-xUIbCuZW8ig)
+   - [Image 11](https://unsplash.com/photos/island-surround-by-blue-ocean-water-ZYtE2vp0ML8)
+   - [Image 12](https://unsplash.com/photos/a-sandy-beach-next-to-a-rocky-cliff-2LdNjUl79sk)
+
+   ### Tools
+
+   - [Optimizilla](https://imagecompressor.com/) was used to compress the gallery images.
+   - [Image Resizer](https://imageresizer.com/) was used to resize and crop the gallery images.
+   - [Coolers](https://coolors.co/) was used to create the colour palette.
+
+
 ## Acknowledgments
+
+- [Julia Konovalova](https://github.com/IuliiaKonovalova) was a great mentor throughout this project, guiding me to help shape the project and bring it to life.
+- [Code Institute](https://codeinstitute.net/) for the knowledge to complete a project like this and to the tutors and slack community for their support and help.
+- My friends and family for their feedback adn help in testing the site.
 
 ---
