@@ -1,6 +1,6 @@
 # Gower Sea Swimming
 
-Welcome to the repository for the Cold Water Sea Swimmers website. This website aims to attract new members, inform visitors about the benefits and safety of cold water sea swimming, showcase past events, and facilitate easy sign-up for events and membership.
+Welcome to the Cold Water Sea Swimmers website. This website aims to attract new members, inform visitors about the benefits and safety of cold water sea swimming, showcase beautiful Welsh swim spots, and facilitate easy sign-up for events and membership.
 
 The site can be accessed from this [link](https://elerihulme.github.io/Gower-Sea-Swimming/)
 
@@ -10,7 +10,7 @@ The site can be accessed from this [link](https://elerihulme.github.io/Gower-Sea
 
 - [Project Overview](#project-overview)
 - [Technologies Used](#technologies-used)
-- [UX](#ux)
+- [User stories](#user-stories)
 - [Features](#features)
 - [Design](#design)
 - [Testing](#testing)
@@ -23,7 +23,7 @@ The site can be accessed from this [link](https://elerihulme.github.io/Gower-Sea
 
 The Cold Water Sea Swimmers website consists of three main pages:
 - **Home**: Provides information about the group’s mission, safety advice and regular swims.
-- **Gallery**: Displays a collection of photos of beautiful local swimming location.
+- **Gallery**: Displays a collection of photos of beautiful local swimming locations.
 - **Sign Up**: Allows users to join the group and participate in events.
 
 ## Technologies Used
@@ -37,128 +37,145 @@ The Cold Water Sea Swimmers website consists of three main pages:
 - **GitHub**: Host the code of the website.
 - **GitHub Pages**: Website deployment.
 
-## UX
+## User Goals and Stories
 
-### Strategy
-
-#### User Goals
+### User Goals
 
 * Opportunity to find a group to safely enjoy ocean swimming with likeminded people.
-* Find information about when and where the group meet
-* Discover the benefits of cold water swimming
+* Find information about when and where the group meet.
+* Discover the benefits of cold water swimming.
 
-#### Site Owner Goals
+### Site Owner Goals
 
-* Increase the number of people in the group
-* Promote the benefits of cold water swimming
-* Provide information about saftey
-* Provide an easy way to keep group members updated about upcoming events
+* Increase the number of people in the group.
+* Promote the benefits of cold water swimming.
+* Provide safety information.
+* Provide an easy way to keep group members updated about upcoming events.
 
 
-#### User Stories
+### User Stories
 
-##### First Time Visitor Goals:
+#### First Time Visitor Goals:
 
-* To be able to quickly understand the purpose of the website
-* To be able to intuitively navigate through the website to find any content of interest
-* To be able to easily find the information about where the swims take place and when
-* To be able to understand the ethos and aims of the club
+* To be able to quickly understand the purpose of the website.
+* To be able to intuitively navigate through the website to find any content of interest.
+* To be able to easily find the information about when and where the swims take place.
+* To be able to understand the ethos and aims of the club.
 
-##### Returning VisitorGoals:
+#### Returning VisitorGoals:
 
-* Navigate quickly to find the information I need
-* To be able to contact the group leaders to ask any questions
+* To be able to navigate quickly to find the information I need.
+* To be able to contact the group leaders to ask any questions.
 
-##### Frequent Visitor Goals:
+#### Frequent Visitor Goals:
 
 * To be able to see what new events are coming up.
-* To be able to see any updates to upcoming events
-
-### Scope
-
-- **Content Requirements**: Information about the group's mission, health benefits of sea swimming, safety rules, and upcoming events.
-- **Functionality Requirements**: Responsive design, intuitive navigation, accessible content, and an engaging photo gallery.
-
-### Structure
-
-- **Hierarchical Structure**: The website is organized into sections, including Home, About Us, Health Benefits, Sea Safety Rules, Events, and Gallery.
-- **Navigation**: A fixed navigation bar allows users to easily access different sections of the website.
-
-### Skeleton
-
-- **Wireframes**: Wireframes were created to outline the layout and structure of each page, ensuring a logical flow of information and ease of use.
-- **Layout**: The layout uses a grid system (Bootstrap) to ensure consistency and responsiveness across different devices.
-
-### Surface
-
-- **Visual Design**: The design focuses on a clean and modern aesthetic, with a color scheme that reflects the sea and nature.
-- **Typography**: Readable and accessible fonts are used to ensure a pleasant reading experience.
-- **Imagery**: High-quality images of the beach and sea swimming events enhance the visual appeal and engagement of the website.
-
+* To be able to see any updates to upcoming events.
 
 ## Features
 
 ### Navigation Bar
 
+ ![NavBar desktop](documentation/desktop-nav-bar.png)
+
 * The navigation bar is visible on all pages. 
-* The left side of navigation bar features the business logo which links to the home page from every page on the site as this is expected by the user.
-* Links to each of the three pages of the site: Home, Gallery, and Sign Up are conventionally positioned on the right as expected by the user. 
-* The page link underlines when the page active on the website to indicate to the user where they are on the site.
-* When the mouse hovers over a page link the background colour of the link turns blue in keeping with the colour scheme of the site and provides easy navigation for the user.
+* The left side of navigation bar features the business logo which links to the home page from every page on the site.
+* Links to each of the three pages of the site: Home, Gallery, and Sign Up are conventionally positioned on the right.
+* The page link for the current page is underlined to indicate to the user where they are on the site.
+* When the mouse hovers over a page link the colour of the text and icon changes indicting to the user that the links are clickable.
 
 - The navigation bar is responsive:
 
-   * On mobile devices: 
-      - navigation bar filled with the logo to the right and a hamburger menu implemented on the right-hand side of the navigation bar.     
-      - When the hamburger menu is clicked, there is dropdown menu with the links in the same order.
+- On tablet devices:
+   - the navigation element logos move to below the names of the links
 
+![NavBar tablet](documentation/tablet-nav-bar.png)
+
+- On mobile devices: 
+    - navigation bar filled with the logo to the right and a hamburger menu implemented on the right-hand side of the navigation bar.     
+   - When the hamburger menu is clicked, there is dropdown menu with the links in the same order.
+
+![NavBar mobile](documentation/mobile-nav-bar.png)
+![NavBar hamburger mobile](documentation/open-hamburger-nav-bar.png)
 
 ### Footer
 
-* The footer is visible on all pages so that address and social media links are always available to the user
+![Footer](documentation/footer.png)
+
+* The footer is visible on all pages to provide consistency and so that social media links are always available to the user
+* When the mouse hovers over a social media icon the colour of the icon changes indicting to the user that the icons are clickable.
 
 ### Home Page
 
-- The home page provides the most important information about the group demonstrating the groups aims and ethos
-- The home page is reponsive. On desktop the events section takes up 1/3 of the right hand side of the screen, but on tablet and mobile devices it moves below the other sections of content.  
+![Home page](documentation/home.png)
+
+- The home page provides the most important information about the group demonstrating the groups aims and ethos, the benefits of cold water swimming, the saftey rules and the groups events.
+- The home page is reponsive. On desktop screens the events section takes up 1/3 of the right hand side of the screen, but on tablet and mobile devices it moves below the other sections of content.  
 
 ##### Hero Section
 
+![Hero scetion](documentation/hero.png)
+
 - Hero section has a fixed background image.
+- Image has an overlay to increase the opacity of the image to make the text clearly readable
 - Hero section has a block section over the image that consists of:
    * Welcome message.
    * Sign up button that leads directly to the sign up page with a hover effect so the user knows that the button is usable.
 
 ##### About Us Section
 
+![About us section](documentation/about-us.png)
+
 - This is the first section on the page as it describes the main information about the group, which is a priority for users.
 
 #### Health Benefits Section
+
+![Health benefits section](documentation/health-benefits.png)
 
 - This section bullet points the main benefits of cold water swimming, divided into physical and mental benefits to make it easy for the user to understand
 - This section is responsive as on a desktop the two categories appear next to each other but are stacked on tablet and mobile devices.
 
 #### Swim Saftey Section
 
+![Swim safety section](documentation/sea-safety.png)
+
 - This section hightlight to user the saftey consideration of sea swimming, reminding them of the potential dangers
-- Each "rule" has an accompanying cartoon to emphasise each point and to make the content easier to take in.
+- Each "rule" has an accompanying icon to emphasise each point and to make the content easier to take in.
 - This section is repsonsive as the number of rules on each line decreases as the screen width gets narrower.
 
 #### Events Section
+
+![Events section](documentation/health-benefits.png)
 
 - This section provide a list of the upcoming group events with details of place and time
 - When viewed on a desktop this section is an aside to the right of the screen, but when on a tablet it falls below the other content on the page.
 
 ### Gallery
 
-- This page highlights some of the places that group go swimming
-- This apge is responsive as the number of images in a row decreases as the page width narrows
+![Gallery](documentation/gallery.png)
+
+- This page highlights some of the places that group go swimming.
+- This page is responsive as the number of images in a row decreases as the page width narrows.
 
 ### Sign Up
 
-- This page allows user to sign up for email updates so that they will never miss an event or any other update from the group organisers
-The name and the email inputs are requireed to be filled out
-- The submit button leads to a response page allowing the user to know that their submission was successful.
+![Sign up](documentation/signup.png)
+
+- This page allows user to sign up for email updates so that they will never miss an event or any other update from the group organisers.
+- The sign up button in the hero image navigates the user down to the sign up form section of the page.
+- The name and the email inputs are required to be filled out.
+- The submit button leads to a response page.
+
+### Response
+
+![Sign up ](documentation/signup-complete.png)
+
+- The response page provides confirmation to the user that they have successfully submitted the form.
+- The hero image link now displays the message "back to home" and when clicked takes the user back to the home page.
+
+### Max-width
+
+- For the whole website the max width is 1900px to ensure on the largest screen sizes the content isn't stretched and so the user can take in all the information at once with minimal head movements.
 
 ## Design
 
@@ -166,11 +183,19 @@ The name and the email inputs are requireed to be filled out
 
 ![Color pallet](documentation/colour-scheme.png)
 
-- Different shades of blue were used as this is a colour associated with the sea and is aslo calming
+- Different shades of blue were used for the website this is a colour associated with the sea and they also have a calming effect on the user giving a feeling of tranquility to the page.
 
 ### Typography
 
-- Google font's Bellota and Indie Flower were used for the headings and main content respectively as the curly nature of both of these fonts is eye catching but also gives a sense of informality giving the page a friendly nature like the environment the group is trying to create.
+- Google font's Bellota was used for the headings.
+
+![Headings Font](documentation/bellota-font.png)
+
+- Google font's Indie Flower was used for the main content
+
+![Content Font](documentation/indie+flower-font.png)
+
+- Both of these fonts are curly and have an element of being hand written about them. This makes the website appear more friendly as it gives an informal and personal design.
 
 ### Wireframes
 
@@ -201,17 +226,28 @@ The name and the email inputs are requireed to be filled out
 
 ### Validation
 
-* [HTML Validator](https://validator.w3.org/) was run on each page to determine any HTML errors. The only error found on each page was for the type attribute of buton on an a tag, this was taken from Bootstrap, and I don't believe it is necessarily an error. More information can be found [here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button).
+* [HTML Validator](https://validator.w3.org/) was run on each page to determine any HTML errors. The only error found on each page was for the type attribute value of buton on an a tag. This section of code was taken from Bootstrap, and I don't believe it is necessarily an error. More information can be found [here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button).
+
 ![index validation](documentation/index-verfication.png)
+
 ![gallery validation](documentation/gallery-verification.png)
+
 ![signup validation](documentation/signup-verification.png)
+
 ![signup-complete validation](documentation/signup-complete-verification.png)
+
 * [CSS Validator](https://validator.w3.org/) was run on the style sheet and there were no errors found.
+
 ![css validation](documentation/css-verification.png)
+
 * Lighthouse in Chrome Developer Tools was used to check performance and picked up some early contrast errors in colour choice so colours were adjusted accordingly. No other significant errors were found.
+
 ![index lighthouse](documentation/index-lighthouse.png)
+
 ![gallery lighthouse](documentation/gallery-lighthouse.png)
+
 ![signup lighthouse](documentation/signup-lighthouse.png)
+
 ![signup-complete lighthouse](documentation/signup-complete-lighthouse.png)
 
 
@@ -220,7 +256,8 @@ The name and the email inputs are requireed to be filled out
 
 The website was tested on Chrome, Mozilla, Edge and Safari browsers with no problems found.
 
-The website was tested on numerous sized screens including different desktop, tablet and mobile and was found to respond as expected to all sizes.
+The website was tested on numerous sized screens including different desktop, tablet and mobile devices and was found to respond as expected to all sizes.
+
 ![index responsive](documentation/index-responsive.png)
 ![gallery responsive](documentation/gallery-responsive.png)
 ![signup responsive](documentation/signup-responsive.png)
@@ -237,29 +274,42 @@ Chrome development tools was used throughout the design process to check respons
 | Logo | Click on the logo text | The user is directed to the main page | Yes | Yes | - |
 | Home | Click on the "Home" link | The user is redirected to the main page | Yes | Yes | - |
 | Gallery | Click on the "Gallery" link | The user is redirected to the gallery page | Yes | Yes | - |
-| Sign Up | Click on the "SIgn Up" link | The user is redirected to the sign up page | Yes | Yes | - |
+| Sign Up | Click on the "Sign Up" link | The user is redirected to the sign up page | Yes | Yes | - |
+| Hover effect | Hover over a nav element | The name and icon change colour | Yes | Yes | - |
 | Footer | | | | | |
 | Instagram icon in the footer | Click on the Instagram icon | The user is redirected to the Instagram page | Yes | Yes | - |
 | Facebook icon in the footer | Click on the Facebook icon | The user is redirected to the Facebook page | Yes | Yes | - |
 | X icon in the footer | Click on the X icon | The user is redirected to the X page | Yes | Yes | - |
 | YouTube icon in the footer | Click on the YouTube icon | The user is redirected to the YouTube page | Yes | Yes | - |
+| Hover effect | Hover over footer element | The icon changes colour | Yes | Yes | - |
 | Home page | | | | | |
 | "Sign Up" button in Hero section | Click on the "Sign Up" button | The user is redirected to the Sign Up page | Yes | Yes | - |
 | Gallery page | | | | | |
 | "Sign Up" button in Hero section | Click on the "Sign Up" button | The user is redirected to the contact page | Yes | Yes | - |
-| Contact page | | | | | |
+| Sign Up page | | | | | |
+| "Sign Up" button in Hero section | Click on the "Sign Up" button | The user is redirected to the sign up form section further down the sign up page | Yes | Yes | - |
 | Name input | Enter name | The name is entered | Yes | Yes | If user doesn't enter a name, the error message appears |
 | Email input | Enter the email | The email is entered | Yes | Yes | If user doesn't enter the email, the error message appears. If user enters not valid email, the error message appears |
 | Message text box | Type message in the text box | Message appears in the text box | Yes | Yes | Message is not required as user doesn't need to send a message to sign up |
 | "Submit" button | Click on the "Submit" button | The user is redirected to the sign up complete page | Yes | Yes | - |
+| Response page | | | | | |
+| "Back to Home" button in Hero section | Click on the "Back to Home" button | The user is redirected to the home page | Yes | Yes | - |
 
 ### Bugs
 
 #### Solved Bugs
-1. When centering my title on my hero image and adding an opaque overlay to make the text more visible, the title was staying at the top of the page
-2. When adding my gallery images, they weren't filling the whole of the screen.
+
+1. When adding the opaque overlay to the hero image to make the hero text more visible, the title was no longer centered in the image.
+
+Solution: both the overlay and the title container needed to be set to position absolute and centered from there.
+
+2. When adding my gallery images, they weren't filling the whole of their container on the larger screen sizes.
+
+Solution: set a fixed height to the container, set the image height 100% and set overflow to hidden.
 
 #### Unsolved Bugs
+
+None
 
 ### Mistakes
 
@@ -282,8 +332,6 @@ In order to make a local copy of this project, you can clone it.
 In your IDE Terminal, type the following command to clone my repository:
 
 - `git clone https://github.com/elerihulme/Gower-Sea-Swimming.git`
-
-- Alternatively, if you use Gitpod, you can [click here](https://elerihulme-gowerseaswim-4qu1qyuo6oa.ws.codeinstitute-ide.net/), which will start the Gitpod workspace for you.
 
 ## Future Improvements
 
