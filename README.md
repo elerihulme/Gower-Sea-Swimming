@@ -1,6 +1,6 @@
 # Gower Sea Swimming
 
-Welcome to the Cold Water Sea Swimmers website. This website aims to attract new members, inform visitors about the benefits and safety of cold water sea swimming, showcase beautiful Welsh swim spots, and facilitate easy sign-up for events and membership.
+Welcome to the Gower Sea Swimming website. This website aims to attract new members, inform visitors about the benefits and safety of cold water sea swimming, showcase beautiful Welsh swim spots, and facilitate easy sign-up for events and membership.
 
 The site can be accessed from this [link](https://elerihulme.github.io/Gower-Sea-Swimming/)
 
@@ -21,7 +21,7 @@ The site can be accessed from this [link](https://elerihulme.github.io/Gower-Sea
 
 ## Project Overview
 
-The Cold Water Sea Swimmers website consists of three main pages:
+The Gower Sea Swimming website consists of three main pages:
 - **Home**: Provides information about the group’s mission, safety advice and regular swims.
 - **Gallery**: Displays a collection of photos of beautiful local swimming locations.
 - **Sign Up**: Allows users to join the group and participate in events.
@@ -145,7 +145,7 @@ The Cold Water Sea Swimmers website consists of three main pages:
 
 #### Events Section
 
-![Events section](documentation/health-benefits.png)
+![Events section](documentation/events.png)
 
 - This section provide a list of the upcoming group events with details of place and time
 - When viewed on a desktop this section is an aside to the right of the screen, but when on a tablet it falls below the other content on the page.
@@ -154,7 +154,7 @@ The Cold Water Sea Swimmers website consists of three main pages:
 
 ![Gallery](documentation/gallery.png)
 
-- This page highlights some of the places that group go swimming.
+- This page highlights some of the places that the group go swimming.
 - This page is responsive as the number of images in a row decreases as the page width narrows.
 
 ### Sign Up
