@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Bellota:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Indie+Flower&display=swap');
 
 /*----------------------------------------------------------- Colors */
-.bg-color-header {
+header {
     background-color: #21295C;
 }
 
-.bg-color-footer {
+footer {
     background-color: #21295C;
 }
 
@@ -67,26 +67,15 @@ body {
 }
 
 /*----------------------------------------------------------- Header */
-header {
-    margin: 0;
-}
-
 .top-bar {
     min-height: 100px;
 }
 
-.bg-color-header>div {
-    padding: 0;
-}
-
-.logo-container {
-    padding: 0;
+.logo {
     margin-left: 2%;
 }
 
-.logo {
-    min-height: 80px;
-    line-height: 50px;
+.logo a {
     font-family: Bellota, sans-serif;
     font-weight: 700;
     font-size: 35px;
@@ -98,20 +87,18 @@ header {
     text-decoration: underline;
 }
 
-#nav li a {
+#nav a {
     font-family: Bellota, sans-serif;
     font-size: 20px;
     color: #fcfcfc;
-    padding: 5px;
 }
 
 
-#nav li a:hover {
+#nav a:hover {
     color: #1C7293;
 }
 
 .hero-image {
-    background-color: #ADD7F6;
     height: 400px;
     background: url("../images/hero-image.jpg");
     background-position: center;
@@ -119,46 +106,31 @@ header {
     background-size: cover;
 }
 
-.hero-button:hover {
-    background-color: #1B4079;
-    color: #fcfcfc;
-}
-
 .overlay {
     height: 100%;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.5);
-    z-index: 1;
 }
 
-.hero-title {
-    z-index: 2;
+.hero-image a:hover {
+    background-color: #1B4079;
     color: #fcfcfc;
-    text-align: center;
 }
 
 /*----------------------------------------------------------- Main */
-main {
-    min-height: 300px;
-}
-
 .home-main {
     padding: 0;
 }
 
-.home-section {
+.home-main section {
     padding: 2%;
 }
 
-.home-section h2 {
+.home-main h2 {
     margin-top: 1%;
 }
 
 /*----------------------------------------------------------- About Us */
-.about-us {
-    color: #2a2b2e;
-}
-
 .about-us p {
     font-size: 20px;
     margin: 4% 0;
@@ -169,28 +141,27 @@ main {
     margin: 2% 0;
 }
 
-.health-benefits h3 {
+.health-container h3 {
     margin: 2.5%;
 }
 
-.health-benefits i {
+.health-container i {
     display: block;
     font-size: 26px;
     margin-bottom: 2%;
 }
 
-.health-benefits p {
+.health-container p {
     font-size: 20px;
     margin: 0;
 }
 
 /*----------------------------------------------------------- Swim Safety */
-.rules {
+.rules-container {
     padding: 1%;
 }
 
 .swim-rule {
-    min-height: 50px;
     padding: 5px;
     font-size: 18px;
 }
@@ -202,10 +173,6 @@ main {
 
 
 /*----------------------------------------------------------- Events */
-aside {
-    margin: 0 auto;
-}
-
 aside h2 {
     margin: 3%;
     color: #2a2b2e;
@@ -221,29 +188,27 @@ aside h2 {
     margin: 3% 0;
 }
 
-.event div h3 {
+.event h3 {
     margin-bottom: 3%;
     color: #2a2b2e;
 }
 
-.event div p {
+.event p {
     color: #2a2b2e;
 }
 
 
 /*----------------------------------------------------------- Gallery */
-.gallery-title {
+.gallery h2 {
     margin: 3%;
 }
 
-.gallery-message {
-    margin-bottom: 2rem;
+.gallery p {
+    margin-bottom: 2%;
 }
 
 .image-container {
-    height: 400px;
     overflow: hidden;
-    padding: 0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -258,7 +223,7 @@ aside h2 {
 
 .center-form {
     margin: 0 auto;
-    padding-top: 10px;
+    padding-top: 5%;
     width: 70%;
     max-width: 600px;
 }
@@ -268,12 +233,18 @@ aside h2 {
     margin-bottom: 20px;
 }
 
-form {
+.sign-up-box p {
+    font-size: 20px;
+    margin-top: 2%;
+}
+
+.form-label {
+    margin-top: .5rem;
     color: #fcfcfc;
 }
 
 .sign-up-box button {
-    margin: 10px;
+    margin: 15px;
     background-color: #fcfcfc;
     color: #21295c;
 
@@ -284,28 +255,32 @@ form {
     color: #fcfcfc;
 }
 
+/*----------------------------------------------------------- Response Page */
+.signup-message {
+    width: 50%;
+}
+
+.signup-message h2 {
+    margin: 2%;
+}
+
 /*----------------------------------------------------------- Footer */
-footer {
+.footer-container {
     height: 70px;
     font-size: 30px;
 }
 
-.footer-container {
-    height: 70px;
-}
-
 .social-links {
     margin: 0;
-    padding: 0;
 }
 
-.social-links li a i {
+.social-links i {
     height: 40px;
     width: 40px;
-    color: white;
+    color: #fcfcfc;
     line-height: 40px;
 }
 
-.social-links li a i:hover {
+.social-links i:hover {
     color: #1c7293;
 }
